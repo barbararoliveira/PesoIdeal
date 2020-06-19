@@ -29,8 +29,8 @@ namespace PesoIdeal
             else 
                 Console.WriteLine($"Seu peso ideal é {resultmasculino} kg.");     
 
-            Console.ReadKey();                             
-
+            Console.WriteLine ("Pressione enter para finalizar.");
+            Console.ReadKey();
         }
     }
 }
